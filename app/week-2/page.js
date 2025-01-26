@@ -9,3 +9,4 @@ export default function Page()
         </main>
     );
 }
+//inside week-2/student-info.js
