@@ -1,9 +1,12 @@
+import ItemList from './item-list';
+import React from 'react';
+
 export default function Page()
 {
     return (
         <main>
-            <h1>Week 6 Assignment</h1>
-            <p>Placeholder for this week.</p>
+            <h1>Shopping List</h1>
+            <ItemList />
         </main>
     );
 }
