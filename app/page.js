@@ -11,7 +11,7 @@ export default function Page()
       <h3><Link href="week-4">Week 4 Assignment</Link></h3>
       <h3><Link href="week-5">Week 5 Assignment</Link></h3>
       <h3><Link href="week-6">Week 6 Assignment</Link></h3>
-      <h3>Week 7 Assignment</h3>
+      <h3><Link href="week-7">Week 7 Assignment</Link></h3>
       <h3>Week 8 Assignment</h3>
       <h3>Week 9 Assignment</h3>
       <h3>Week 10 Assignment</h3>

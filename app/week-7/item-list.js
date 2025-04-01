@@ -1,18 +1,18 @@
 "use client";
 import { useState } from "react";
 import Item from "./item.js";
-// import itemsData from "./items.json"; // Adjust the path if needed
+import itemsData from "./items.json"; // Adjust the path if needed
 
-export default function ItemList({ items })
+export default function ItemList()
 {
     const [sortBy, setSortBy] = useState("name");
     let items = [...itemsData];
 
-    const sortedItems = [...items].sort((a, b) => {
+    const sortedItems = items.sort((a, b) => {
         if (sortBy === "name") {
-          return a.name.localeCompare(b.name);
+            return a.name.localeCompare(b.name);
         } else if (sortBy === "category") {
-          return a.category.localeCompare(b.category);
+            return a.category.localeCompare(b.category);
         }
     });
 
